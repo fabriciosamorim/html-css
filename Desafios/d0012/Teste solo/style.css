@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'A';
+    src: url('/Users/fabricioamorim/Documents/Estudos/html-css/Exercicios/MODULO 1/Desafios/d0012/Teste solo/pacote-projeto-d010/fontes/idroid.otf') format('truetype'), url('/Users/fabricioamorim/Documents/Estudos/html-css/Exercicios/MODULO 1/Desafios/d0012/Teste solo/pacote-projeto-d010/fontes/idroid.otf') format('opentype'); 
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    background-color: #84E1AD;
+    margin: auto 50px auto 50px;    
+}
+
+header {
+    background-color: #479f6277;
+    background-image: linear-gradient(to top, #479f6277, rgba(255, 255, 255, 0.509));
+    color: white;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif; 
+
+    padding-top: 10px;
+    padding-right: auto;
+    padding-bottom: 10px;
+    padding-left: auto; 
+    
+    border-radius: 10px;  
+    
+}
+
+
+header > p {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.575); 
+     
+}
+
+nav > a {
+    text-decoration: none;
+    text-align: left;
+    color: white;
+    margin: 20px;
+    font-weight: bolder;
+}
+
+section {
+    background-color: white;
+    width: 500;
+    height: auto;
+    border-radius: 10px;
+    
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+}
+
+section#Quer {
+    background-color: white;
+    border-radius: 10px;
+   
+    width: auto;
+    height: auto;  
+}
+
+section#inframe {
+    background-color: #25442e;
+    text-align: center;
+    
+    width: auto;
+    height: 350px;
+
+    padding-top: 40px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;    
+}
+section#Quer > h3 {
+    background-color: hwb(138 28% 38%);
+    color: white;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+section > h1 {
+    font-family: 'A';
+    color: #479F61;
+    font-size: 27px;   
+}
+
+section > h2 {
+    color: #479F61;
+    font-family: 'A';
+    font-weight: normal;
+    font-size: 20px;
+    background-color: #73b58735; 
+    background-image: linear-gradient( to right, #73b58735, white);  
+    padding-left: 5px;
+}
+
+picture > img#bugdoid {
+    
+    border-radius: 10px;
+}
+
+span > ul { 
+    display: inline-block;
+    padding-top: 0px;
+    padding-right: 200px;
+    padding-bottom: 0px;
+    padding-left: 20px;    
+}
+
+p {
+    text-align: justify;
+    text-indent: 20px;
+    
+}
+
+p > a {
+    color: green;
+    font-weight: bolder;
+    text-decoration: none;
+    padding-left: left;
+}
+
+footer {
+    background-color: #25442e;
+    color: white;
+    text-align: center;
+    margin: 10px auto 10px auto;
+}
+
+

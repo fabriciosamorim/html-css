@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML 5</title>
+    <link rel="shortcut icon" href="../ex010/htmlllll.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Iserindo Vídeos Hospedados Localmente (simples)</h1>
+    <hr>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+
+        <video src="video/12469290_1920_1080_25fps.mp4" width="500" controls autoplay loop></video>
+        <video src="video/12488852_3840_2160_30fps.mp4" width="500" controls autoplay loop></video>
+        <video src="video/19942428-uhd_3840_2160_30fps.mp4" width="500" controls autoplay loop></video>
+        
+    
+    <h1>Iserindo Vídeos Hospedados Localmente (indicado)</h1>
+    <hr>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+        <!--No formato indicado o vídio deve ser convertido em diversos (mp4; ogg; webm) formatos para que tenha opção de compatibilidade para diversos navegadores-->
+        
+        <video width="500" poster="imagens/Captura de Tela 2024-10-24 às 20.19.53.png" controls autoplay loop> 
+
+        <source src="video/12469290_1920_1080_25fps.mp4" type="">    <!--correto inserir formato de vídeo dentro do type porém está com falha-->
+        <source src="video/12469290_1920_1080_25fps.mp4" type="vídio/mpeg">   <!--exemplo mp4-->
+        <source src="video/12488852_3840_2160_30fps.mp4" type="vídeo/mp4">  <!--exemplo webm-->
+        <source src="video/19942428-uhd_3840_2160_30fps.mp4" type="vídeo/mp4">  <!--exemplo ogg-->
+
+        <p>Seu navegador não tem compatibilidade com a reprodução de vídeos</p>    
+        </video>
+
+        <h1>Inserindo vídeos do YouTube</h1>
+        <hr>
+        <iframe width="500" height="315" src="https://www.youtube.com/embed/xYLizixflv4?si=YEAIG3j-eDSnZlz_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <h1>Inserindo Vídeos do Vimeo</h1>
+        <hr>
+        <iframe src="https://player.vimeo.com/video/662376175?h=f154adf3b3" width="500" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        <p><a href="https://vimeo.com/662376175">Caesar&#039;s Dying Wish</a> from <a href="https://vimeo.com/midbrow">Mid-Brow</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+        
+        <footer> &copy; Copyright, todos os direitos reservados</footer>
+    
+</body>
+</html>

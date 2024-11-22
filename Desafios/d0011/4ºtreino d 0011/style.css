@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+*{
+
+    margin: 0; padding: 0; box-sizing: border-box;
+    
+}
+
+body {
+    
+    /*  
+    
+    background-image: url(imagens/pexels-sevenstormphotography-443399.jpg);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    
+    */
+
+
+    background-color: #031833;
+
+    color: #FFFFFF;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    text-align: center;
+    }
+
+    h1 {
+        font-size: 36px;
+        
+    }
+    a:visited{ color: red;}
+
+    a:hover{ text-decoration: underline;
+             color: white;
+    }
+
+
+
