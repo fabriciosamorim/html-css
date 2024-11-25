@@ -1,4 +1,6 @@
 # html-css
  Curso de HTML5 e CSS3
 
-Atualização de Repositório
+Exercício Atualização de Repositório
+
+<a href= https://fabriciosamorim.github.io/html-css/exercicios/ex001/index.html>Executar exercício 001</a>
