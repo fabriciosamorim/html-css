@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luminance Cosmetics</title>
+  <style>
+    /* CSS Geral */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    /* Cabeçalho */
+    header {
+      background-color: white;
+      color: black;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+
+      position: fixed;
+      width: 100%;
+      margin-left: -30px;
+      
+    }
+    
+    img {
+        width: 100%;
+        height: 400px;
+        
+    }
+
+    .logo {
+      width: 200px;
+      height: 200px;
+      margin: -20px 0px -20px 20px;
+      
+      
+    }
+
+    nav ul {
+      list-style-type: none;
+      display: flex;
+      font-weight: bolder;
+      border-radius: 5px;
+      
+      
+    }
+    
+    nav ul li {
+      margin-right: 20px;
+      
+    }
+    
+    nav ul li a {
+      color: rgb(131, 92, 3);
+      text-decoration: none;
+      transition-duration: 0.2s;
+      border-radius: 5px;
+      
+    }
+
+    a:hover {
+      background-color: rosybrown;
+      padding: 20px;
+      color: white;
+      
+      
+    }
+    
+    .destaque {
+      background-color: #7f2d6d;
+      
+      color: white;
+      padding: 20px;
+    }
+
+    /* Conteúdo Principal */
+    main {
+      padding: 40px;
+    }
+    
+    .product {
+      display: inline-block;
+      width: 250px;
+      margin: 20px;
+      text-align: center;
+    }
+    
+    .product img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+    }
+    
+    .product h3 {
+      margin-top: 10px;
+    }
+    
+    .product p {
+      margin-top: 5px;
+    }
+    
+    .product button {
+      margin-top: 10px;
+      padding: 8px 16px;
+      border-radius: 5px;
+      background-color: green;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    
+
+    /* Rodapé */
+    footer {
+      background-color: rosybrown;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+
+  </style>
+</head>
+<body>
+  <header>
+    <a href="#"><img class="logo" src="logo.jpeg" alt="Logo"></a>
+    
+    <nav>
+      <ul class="links">
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Produtos</a></li>
+        <li><a href="#">Sobre Nós</a></li>
+        <li><a href="#">Contato</a></li>     
+      </ul>
+    </nav>
+  </header>
+
+  <img src="/exercicios/Teste/cabcalho.jpg" alt="Cosméticos">
+  
+  <nav>
+    <ul>
+      <li><a href="#">Cabelo</a></li>
+      <li><a href="#">Maquiagem</a></li>
+      <li><a href="#">Perfumes</a></li>
+      <li><a href="#">Unhas</a></li>  
+      <li><a href="#">Higiene e Saúde</a></li>  
+      <li><a class="destaque" href="#">Outlet</a></li>   
+    </ul>
+  </nav>
+  <hr>
+  <main>
+    <div class="product">
+      <img src="masc.png" alt="Produto 1">
+      <h3>Máscara Eudora Siàge Nutri Rosé nutrição 250g</h3>
+      <p>O que você precisa saber sobre este produto:
+        Formato de venda: Unidade
+        Peso líquido: 250 g
+        Unidades por...
+      </p>
+      <button>Comprar Agora</button>
+      <button style="background-color: #333;">Adicionar ao Carrinho</button>
+    </div>
+    <div class="product">
+      <img src="p2.png" alt="Produto 2">
+      <h3>Eudora Siage Hair Plastia Mascara Capilar Refil 250g</h3>
+      <p>O que você precisa saber sobre este produto
+        Formato de venda: Unidade
+        Volume líquido: 250 mL
+        Peso líquido: 250 g...</p>
+      <button>Comprar Agora</button>
+      <button style="background-color: #333;">Adicionar ao Carrinho</button>
+    </div>
+    <div class="product">
+        <img src="p3.png" alt="Produto 3">
+        <h3>Niina Sunset Deo Colônia Secrets 50ml Eudora Ed. Especial</h3>
+        <p>O que você precisa saber sobre este produto
+          Volume da unidade: 0.05 L
+          Notas de fundo: baunilha...</p>
+        <button>Comprar Agora</button>
+        <button style="background-color: #333;">Adicionar ao Carrinho</button>
+      </div>
+      <div class="product">
+        <img src="produto2.jpg" alt="Produto 2">
+        <h3>Produto 2</h3>
+        <p>Descrição do Produto 2</p>
+        <button>Comprar</button>
+      </div>
+      <div class="product">
+        <img src="produto1.jpg" alt="Produto 1">
+        <h3>Produto 3</h3>
+        <p>Descrição do Produto 1</p>
+        <button>Comprar</button>
+      </div>
+      <div class="product">
+        <img src="produto2.jpg" alt="Produto 2">
+        <h3>Produto 4</h3>
+        <p>Descrição do Produto 2</p>
+        <button>Comprar</button>
+      </div>
+      <div class="product">
+        <img src="produto1.jpg" alt="Produto 1">
+        <h3>Produto 5</h3>
+        <p>Descrição do Produto 1</p>
+        <button>Comprar</button>
+      </div>
+      <div class="product">
+        <img src="produto2.jpg" alt="Produto 2">
+        <h3>Produto 6</h3>
+        <p>Descrição do Produto 2</p>
+        <button>Comprar</button>
+      </div>
+      <div class="product">
+        <img src="produto1.jpg" alt="Produto 1">
+        <h3>Produto 7</h3>
+        <p>Descrição do Produto 1</p>
+        <button>Comprar</button>
+      </div>
+      <div class="product">
+        <img src="produto2.jpg" alt="Produto 2">
+        <h3>Produto 8</h3>
+        <p>Descrição do Produto 2</p>
+        <button>Comprar</button>
+      </div>
+      <div class="product">
+        <img src="produto1.jpg" alt="Produto 1">
+        <h3>Produto 9</h3>
+        <p>Descrição do Produto 1</p>
+        <button>Comprar</button>
+      </div>
+      <div class="product">
+        <img src="produto2.jpg" alt="Produto 2">
+        <h3>Produto 10</h3>
+        <p>Descrição do Produto 2</p>
+        <button>Comprar</button>
+      </div>
+      <div class="product">
+        <img src="produto1.jpg" alt="Produto 1">
+        <h3>Produto 11</h3>
+        <p>Descrição do Produto 1</p>
+        <button>Comprar</button>
+      </div>
+      <div class="product">
+        <img src="produto2.jpg" alt="Produto 2">
+        <h3>Produto 12</h3>
+        <p>Descrição do Produto 2</p>
+        <button>Comprar</button>
+      </div>
+    <!-- Adicione mais produtos aqui -->
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Luminance Cosmetics. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
